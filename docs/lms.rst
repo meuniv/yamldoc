@@ -81,7 +81,7 @@ The place where the images will be copied is provided in the keyword :code:`base
 
 .. note:: the name of the output file is built from the <prefix> of the input file name provided in *config.yaml* under :code:`yamlfile: <prefix>.yaml` to which "_LMS_png.txt" is appended.
 
-Let's describe the process using an example. The example is similar to the one we use for the text-only option but in this case, we added some latex codes and also some formating code. 
+Let's describe the process using an example. The example is similar to the one we used for the text-only option but in this case, we added some latex codes and also some formatting code. 
 	  
 If the input is:
 
