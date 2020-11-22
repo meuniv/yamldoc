@@ -2,7 +2,7 @@
 
 YAML Format (input)
 +++++++++++++++++++
-Each question is provided in `yaml` format. The format is somewhat unforgiving as spacings and alignments need to be correct for the file to be readable. Below is an example of simple question using this format. Each line will be described in details.
+Each question is provided in `yaml` format. The format is somewhat unforgiving as spacings and alignments need to be correct for the file to be readable. Below is an example of a question using this format. Each line will be described in details.
 
 Question example
 ----------------
