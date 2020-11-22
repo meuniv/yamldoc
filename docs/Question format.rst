@@ -30,7 +30,7 @@ Question example
 Anatomy of a question
 ---------------------
 	
-We will now review each line. Basically, all name that are followed by ":" is a key in a dictionary. If you wish to use a ":" in your questions or answers, you need to use quotation marks (or the :code:`>-` sign -- it is usually used for text with multiple lines).
+We will now review each line. Basically, all names that are followed by ":" is a key in a dictionary. If you wish to use a ":" in your questions or answers, you need to use quotation marks (or the :code:`>-` sign -- it is usually used for text with multiple lines).
 
 1. New question starts with the type. 
 
@@ -76,7 +76,7 @@ Each Choice can be entered in a single-line or multiline format. There is a seco
 
 5. To keep things tidy, you can add a note for each question, using the :code:`Note:` keyword. 
 
+.. note:: The easiest way to create a question is to use an existing one as a template!
 
-.. hint:: A good habit is to check your `yaml` file using a free online
-       tool such as those provided by onlineyamltools.com (see, here: https://onlineyamltools.com/validate-yaml). After a while you won't make a mistake anymore but early on, this could be frustrating.
+.. hint:: A good habit is to check your `yaml` file using a free online tool such as those provided by onlineyamltools.com (see, here: https://onlineyamltools.com/validate-yaml). After a while you won't make a mistake anymore but early on, this could be frustrating.
 
