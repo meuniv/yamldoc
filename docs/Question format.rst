@@ -56,7 +56,7 @@ or
       Try it if you want to. 
 
 
-.. Tip:: The advantage of this appraoch is that you can use Latex commands in both text and math modes in all the texts used in the yaml file.
+.. Tip:: The advantage of this approach is that you can use LaTeX commands in both text and math modes in all the text used in the *yaml* file.
 
 3. For multiple-choice questions, you then have the list of possible answers: 
 
