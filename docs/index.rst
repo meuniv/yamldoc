@@ -18,7 +18,8 @@ YAML To LMS and LATEX Processor
    spellcheck
    Full Example
    WorkinProgress
-
+   Download
+   
 .. Indices and tables
    ==================
 
