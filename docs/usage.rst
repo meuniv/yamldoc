@@ -3,12 +3,12 @@
 Basic usage and configuration file
 ++++++++++++++++++++++++++++++++++
 
-run the python script in a directory where the :code:`config.yaml` file described below is located.
+The process is simply to run the python script (see :ref:`download-label`) in a directory where the :code:`config.yaml` file described below is located. A *question* file must also be findable (see :code:`yamlfile` below). 
 
 Configuration file
 ------------------
 
-All information is provided in the :code:`config.yaml` input file. The file reads as:
+All the necessary configuration information is provided in the :code:`config.yaml` input file. The file reads as:
 
 .. code-block:: yaml
 
