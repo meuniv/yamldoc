@@ -1,9 +1,8 @@
 General purpose
 +++++++++++++++
-The purpose of this tool is to convert a `yaml` file into a file usable for 
-multiple-choice questions in LMS. The code also creates LaTeX and PDF files as needed. 
+We are often faced with creating quizzes and online test using tools such as *canvas* or even simply writing LaTeX files for distribution. At the same time, we wish to keep those questions in a raw form so that they can be archived, editer, and reused. Here, I introduce the use of standard *yaml* file for this purpose. The goal of *yaml2lms*  is to convert a `yaml` file into a file usable for multiple-choice questions in LMS. The code also creates LaTeX and PDF files as needed. 
 
-In addition to creating neat files, this approach is a good way to archive questions in a flexible format.
+In addition to creating neat files, this approach is a good way to archive questions in a flexible format and it also provides a spellchecking utility. 
 
 .. Warning:: *yaml2lms* is a hack. No question about it. It was written as a utility that has saved me a lot of time and headache as a *certain* pandemic forced online teaching. It is not an example of best practice in coding but it works. It really does (I think).
 	       
