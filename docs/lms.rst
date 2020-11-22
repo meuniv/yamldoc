@@ -142,4 +142,4 @@ After uploading the question, the exam looks like this:
 The content is the same as in the example using text only. I personally prefer this approach as it makes for much nicer looking exam, even when no math is required. However, note that the other method is somewhat more straighforward.
 
 
-.. Important:: Do not turn on the creation of LMS file (either methods) until you have carefully checked the PDF created with the default options. It is also important to check that the asnwers you selected as correct are indeed correct (check the PDF with the answer keys). It is always possible to change that on LMS itself but it is not as easy. 
+.. Important:: Do not turn on the creation of LMS files (using either method) until you have carefully checked the PDF created with the default options. It is also important to check that the asnwers you selected as correct are indeed correct (check the PDF with the answer keys). It is always possible to change that on LMS itself but it is not as easy. 
