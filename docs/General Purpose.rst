@@ -1,6 +1,6 @@
 General purpose
 +++++++++++++++
-We are often faced with creating quizzes and online test using tools such as *canvas* or even simply writing LaTeX files for distribution. At the same time, we wish to keep those questions in a raw form so that they can be archived, editer, and reused. Here, I introduce the use of standard *yaml* file for this purpose. The goal of *yaml2lms*  is to convert a `yaml` file into a file usable for multiple-choice questions in LMS. The code also creates LaTeX and PDF files as needed. 
+We are often faced with creating quizzes, assigments, and online tests using tools such as *canvas* or even simply writing LaTeX files for distribution. Platforms such as *black board* make it possible but their format is *unforgiving* and does not allow for advanced formatting (including the insertion of math symbols). At the same time, we wish to keep those questions in a raw form so that they can be archived, edited, and reused. Here, I introduce the use of standard *yaml* file for this purpose. The goal of *yaml2lms*  is to convert a `yaml` file into a file usable for multiple-choice questions in LMS. The code also creates LaTeX and PDF files as needed. 
 
 In addition to creating neat files, this approach is a good way to archive questions in a flexible format and it also provides a spellchecking utility. 
 
