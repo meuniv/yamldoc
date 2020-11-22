@@ -25,3 +25,6 @@ Just make sure to have:
 
 .. Note:: If you wish to use specific LaTeX packages in your mathematical formulas, you will need to edit the python script directly. There is work in progress to make this process simpler. 
 
+.. Hint:: Feel free to contact `me`_ by email for any question!
+
+.. _me: vinmeunier@gmail.com
