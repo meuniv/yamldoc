@@ -2,7 +2,7 @@
 
 LMS Output
 ++++++++++
-One of the major goals of *yaml2lms* is to create an interface between a list of questions you create locally to a format that can be directly imported into an online teaching platform such as Blackboard. It is called Learning Management System (LMS) at Rensselaer Polytechnic Institute. However, the same format is used widely in systems such as *canvas*.
+One of the major goals of *yaml2lms* is to create an interface between a list of questions you create locally to a format that can be directly imported into an online teaching platform such as *blackboard*. It is called Learning Management System (LMS) at Rensselaer Polytechnic Institute. However, the same format is used widely in systems such as *canvas*.
 
 It is possible to import questions on LMS but the format is somewhat
 difficult to handle. The format can be found at various places online,
