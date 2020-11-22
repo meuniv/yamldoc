@@ -62,7 +62,7 @@ import sphinx_rtd_theme
 #    "sphinx_rtd_theme",
 #]
 
-#html_theme = "sphinx_rtd_theme"
+html_theme = "sphinx_rtd_theme"
 
 ##html_theme = 'msmb_theme'
 ##import msmb_theme
@@ -72,7 +72,7 @@ import sphinx_rtd_theme
 
 #####html_theme = 'bizstyle'
 #import edx_theme
-#import os
+
 
 ##extensions = ['edx_theme']
 
@@ -81,30 +81,17 @@ import sphinx_rtd_theme
 #html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import stanford_theme
-    html_theme = 'stanford_theme'
-    html_theme_path = [stanford_theme.get_html_theme_path()]
+#import os
+#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+#if not on_rtd:  # only import and set the theme if we're building docs locally
+#    import stanford_theme
+#    html_theme = 'stanford_theme'
+#    html_theme_path = [stanford_theme.get_html_theme_path()]
 
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
-import stanford_theme# on_rtd is whether we are on readthedocs.org, this line of rrtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import stanford_theme
-    html_theme = 'stanford_theme'
-    html_theme_path = [stanford_theme.get_html_theme_path()]
 
-# otherwise, readthedocs.org uses their theme by default, so no need to specify itode grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import stanford_theme
-    html_theme = 'stanford_theme'
-    html_theme_path = [stanford_theme.get_html_theme_path()]
-
-# otherwise, readthedocs.org uses their theme by default, so no need to specify #html_theme = "stanford_theme"
-#html_theme_path = [stanford_theme.get_html_theme_path()]
 
