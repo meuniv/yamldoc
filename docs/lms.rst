@@ -75,7 +75,7 @@ It is **important to note** that this mode uses a collection of small images to 
 
 The place where the images will be copied is provided in the keyword :code:`base: <httpsite>` provided in file *config.yaml*, as described in :ref:`config-label`.
 
-.. note:: the name of the output file is built from the <prefix> of the input file name provided in *config.yaml* under :code:`yamlfile: <prefix>.yaml` to which "_LMS_png.txt" is appended.
+.. note:: The name of the output file is built from the <prefix> of the input file name provided in *config.yaml* under :code:`yamlfile: <prefix>.yaml` to which "_LMS_png.txt" is appended.
 
 Let's describe the process using an example. The example is similar to the one we used for the text-only option but in this case, we added some LaTeX and some formatting code. 
 	  
