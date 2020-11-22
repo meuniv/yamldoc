@@ -21,7 +21,7 @@ If :code:`solutionKey: yes` is specified, in addition to the questionnaire itsel
 Spellchecked PDF file
 ---------------------
 
-If :code:`spellcheck: yes` is specified, *yaml2.lms* performs a rudimentary spell checking of the input. This feature is described in details at :ref:`spellcheck-label`.
+If :code:`spellcheck: yes` is specified, *yaml2lms* performs a rudimentary spell checking of the input. This feature is described in details at :ref:`spellcheck-label`.
 
 
 .. Note:: It is recommended to carefully check the PDF files before starting the process of creating LMS files. The :code:`createLMS: yes` option can take a few minutes or so to process, depending on the number of questions. And it is best to perform this once you have checked the spelling and the correctness of the answer keys. Note, also, that the spellchecking is time consuming and once you are done spellchecking, it is best to turn that option off. 
