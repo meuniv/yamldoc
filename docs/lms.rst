@@ -103,7 +103,7 @@ If the input is:
      Note: lecture 29
 
 
-When using the option :code:`createLMS: yes`, *yaml2lms* creates a file :code:`<prefix>_lms_png.txt` along with a directory with a collection of images 
+When using the option :code:`createLMS: yes`, *yaml2lms* creates a file :code:`<prefix>_lms_png.txt` along with a directory with a collection of images. 
 The output stored in  :code:`<prefix>_lms_png.tx` looks something like this (though you will probably never have to look at it, as the idea of the script is to avoid it!)
 
 .. code-block::
