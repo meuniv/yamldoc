@@ -15,7 +15,7 @@ Notes
 -----
 1. The process is slow. Once you have run this and corrected your mistake(s), turn this option off to avoid lenghty processing.
 2. *yaml2lms* does not make any correction; instead it makes suggestions as shown in the example below. In this example, most of the mistakes found are actually **not** mistakes and it is expected each user will look into this separately. Only one word was correctly flagged as incorrect.
-3. Clearly this utility needs work but it at least avoid making too many obvious **mistkaes**. 
+3. Clearly this utility needs work but it at least avoids making too many obvious *mistkaes* (oops). 
 
 Example
 -------
