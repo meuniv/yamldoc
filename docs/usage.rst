@@ -3,7 +3,7 @@
 Basic usage and configuration file
 ++++++++++++++++++++++++++++++++++
 
-The process is simply to run the python script (see :ref:`download-label`) in a directory where the :code:`config.yaml` file described below is located. A *question* file must also be findable (see :code:`yamlfile` below). 
+The process is simply to run the python script (see :ref:`download-label`) in a directory where the :code:`config.yaml` file described below is located. A *question* file must also be findable (see :code:`yamlfile:` keyword below). 
 
 Configuration file
 ------------------
