@@ -17,7 +17,7 @@ Functionalities
 
 Installation
 ------------
-There is no installation needed as this is a simply Python script. It can be downloaded from :ref:`download-label`.
+There is no installation needed as this is a simple Python script. It can be downloaded from :ref:`download-label`.
 
 Just make sure to have:
 
