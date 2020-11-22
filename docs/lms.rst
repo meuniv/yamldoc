@@ -62,18 +62,14 @@ You can upload the file :code:`<prefix>_lms_text.txt` on LMS when creating a new
 
 .. Note:: In this example, we only used one question but if the *yaml* file contains multiple questions, they will be included into the test on LMS. 
 	
-
-
-	  
-	  
-
+ 
 LMS using images
 ----------------
 The method described above works very well and is very fast in terms of processing time.
 However, it does not allow for fancy formatting and, while possible, the inclusion of math symbols is neither straitghforward nor totally satisfactory.
 Here, I describe the second method to create an LMS test using more advanced formatting. In this case you need to use this option: :code:`createLMS: yes`.
 
-It is **important to note** that this mode uses a collection of small images to assemble the questions (each image is created by :math:`\textrm{\LaTeX}`). So, the only caveat with this method is that you need a place where you will copy the images and that place has to be accessible on the web.
+It is **important to note** that this mode uses a collection of small images to assemble the questions (each image is created by LaTeX). So, one caveat with this method is that you need a place where you will copy the images and that place has to be accessible on the web.
 
 .. Important:: The *LMS using images* mode is only possible if you have a place where you can copy the images to be accessible on a browser.
 
@@ -81,7 +77,7 @@ The place where the images will be copied is provided in the keyword :code:`base
 
 .. note:: the name of the output file is built from the <prefix> of the input file name provided in *config.yaml* under :code:`yamlfile: <prefix>.yaml` to which "_LMS_png.txt" is appended.
 
-Let's describe the process using an example. The example is similar to the one we used for the text-only option but in this case, we added some latex codes and also some formatting code. 
+Let's describe the process using an example. The example is similar to the one we used for the text-only option but in this case, we added some LaTeX and some formatting code. 
 	  
 If the input is:
 
