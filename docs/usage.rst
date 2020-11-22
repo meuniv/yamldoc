@@ -20,7 +20,7 @@ All information is provided in the :code:`config.yaml` input file. The file read
    dir: "THERMO"
    title1: 'PHYS {4420}: Thermodynamics and Statistical Mechanics (Quiz 20)'
    title2: "Dr. Vincent Meunier, Fall 2020"
-   solutionKey: yes
+   solutionKey: no
 
 The various keywords (ending with a :code:`:`) are mostly self-explanatory.
 
