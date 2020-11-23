@@ -62,8 +62,15 @@ import sphinx_rtd_theme
 #    "sphinx_rtd_theme",
 #]
 
-html_theme = "sphinx_rtd_theme"
+#html_theme = "sphinx_rtd_theme"
+import edx_theme
+import os
 
+extensions = ['edx_theme']
+
+html_theme = 'edx_theme'
+html_theme_path = [edx_theme.get_html_theme_path()]
+html_favicon = os.path.join(html_theme_path[0], 'edx_theme', 'static', 'css', 'favicon.ico')
 ##html_theme = 'msmb_theme'
 ##import msmb_theme
 ##html_theme_path = [msmb_theme.get_html_theme_path()]
