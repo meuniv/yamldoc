@@ -10,8 +10,7 @@ Here is a list of things I'm working on:
 1) Improved spellchecker
 2) Better management of latex packages
 3) Possibility of reading mutilple question files
-
-
+4) Create readthedocs questionnaires for learning
 
 .. _me: vinmeunier@gmail.com
    
