@@ -2,13 +2,13 @@
 
 LMS Output
 ++++++++++
-One of the goals of *yaml2lms* is to create an interface between a list of questions you create locally to a format that can be directly imported into an online teaching platform such as *blackboard*. It is called Learning Management System (LMS) at Rensselaer Polytechnic Institute. However, the same format is used widely in systems such as *canvas*.
+One of the goals of *yaml2lms* is to create an interface between a list of questions you create locally to a format that can be directly imported into an online teaching platform such as *blackboard*. It is called Learning Management System (LMS) at Rensselaer Polytechnic Institute. However, the same format is used widely in systems such as *canvas*, used broadly in many different places. 
 
 It is possible to import questions on LMS but the format is somewhat
 difficult to handle. The format can be found at various places online,
 such as as on the Blackboard_ website.
 
-The primary goal of this script is to translate the *yaml*-formatted questions into a file readable by Blackboard. 
+The primary goal of this script is to translate the *yaml*-formatted questions into a file readable by Blackboard. It has now been extended to provide nice latex and rst outputs. The current version is versatile with options such as: randomization, use of multiple files, various output formats, etc. 
 
 .. _Blackboard: https://help.blackboard.com/Learn/Instructor/Tests_Pools_Surveys/Reuse_Questions/Upload_Questions/
 
